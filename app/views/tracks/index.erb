@@ -1,10 +1,15 @@
-<a href="tracks/new">Add a track!</a>
+<h1>All Songs</h1>
+<div class="track-add">
+  <a href="tracks/new">Add a track!</a>
+</div>
 <% @tracks.each do |track| %>
-  <div class="track">
-    <h3>
-      <a href="/tracks/<%= track.id %>"<small><%= track.title %></small></a>
+  <div class="small-12 large-4 columns">
+    <div class="track panel">
+      <h3>
+        <a href="/tracks/<%= track.id %>"<small><%= track.title %></small></a>
 
-      <p>By: <%= track.author %></p>
-    </h3>
+        <p>By: <%= track.author %></p>
+      </h3>
+    </div>
   </div>
 <% end %>

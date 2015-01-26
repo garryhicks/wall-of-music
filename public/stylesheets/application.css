@@ -1,0 +1,15 @@
+body {
+  background-image: url('../assets/images/background.jpg');
+}
+
+.track {
+  margin-bottom: 15px;
+}
+
+.track-add {
+  margin-bottom: 20px;
+}
+
+.wrapper-content {
+  padding-top: 25px;
+}
